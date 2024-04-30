@@ -1,0 +1,11 @@
+.menu__header{
+    height: 2rem;
+    /* background-color: aqua;
+    box-sizing: inherit; */
+
+}
+@media(wax-width: 480px){
+    .menu__header img{
+        height: 2rem;
+    }
+}

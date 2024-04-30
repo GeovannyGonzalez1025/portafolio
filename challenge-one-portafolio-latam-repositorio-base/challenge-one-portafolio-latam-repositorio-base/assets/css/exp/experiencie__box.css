@@ -1,0 +1,64 @@
+.experiencie__box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+.experiencie__box :nth-child(3),.experiencie__box :nth-child(5){
+    flex-direction: row-reverse;
+}
+.experience__img{
+    width: 60%;
+    gap: 1rem;
+    padding: 15px;
+    margin-top: 12px;
+    
+}
+.experience__title{
+    font-size: 2rem;
+}
+.experience__text{
+    font-size: 1.5rem;
+    font-weight: normal;
+    gap: 15px;
+}
+.experience__info{
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.experience__repo{
+    padding: 15px;
+    color: rgb(13, 124, 124);
+    background-color: rgb(179, 171, 212);
+    border: solid orange;
+    cursor: pointer;
+}
+.experience__demo{
+    padding: 15px;
+    background-color: rgb(240, 182, 74);
+    border: solid #fff;
+    cursor: pointer;
+}
+.experience__demo :hover{
+    background-color: rgb(150, 47, 22);
+    border: solid #fff;
+    cursor: pointer;
+}
+.experience__repo :hover{
+    background-color: rgb(150, 47, 22);
+    border: solid #fff;
+    cursor: pointer;
+}
+@media (max-width: 780px){
+    .experiencie__box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .experiencie__box :nth-child(3),.experiencie__box :nth-child(5){
+        flex-direction: column;
+    }
+    .experience__img{
+        width: 100%;
+    }
+}

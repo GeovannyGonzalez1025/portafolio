@@ -1,0 +1,12 @@
+.hobbies{
+    padding: 5rem;
+    background-color: rgb(182, 192, 212);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hobbies__title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

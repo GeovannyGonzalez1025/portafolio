@@ -1,0 +1,15 @@
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(91, 153, 247);
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+@media (max-width: 480px){
+    title__div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

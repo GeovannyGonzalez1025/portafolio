@@ -1,0 +1,11 @@
+.formcontato--esquerda{
+    width: 60%;
+}
+.formcontato__img{
+    width: 100%;
+}
+@media (max-width: 780px){
+    .formcontato--esquerda{
+        display: none;
+    }
+}

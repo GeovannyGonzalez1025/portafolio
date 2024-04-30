@@ -1,0 +1,34 @@
+.title__bio{
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.title__subsection{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+.title__network{
+    display: flex;
+    gap: 2rem;
+}
+.title__network__item :hover{
+    color: aqua;
+}
+@media (max-width: 780px){
+    title__bio{
+        font-size: 1.5rem;
+    }
+    title__subsection{
+        font-size: 1rem;
+    }
+    title__network{
+        font-size: 8rem;
+    }
+}
+@media (max-width: 480px){
+    title__bio{
+        font-size: 1rem;
+    }
+}

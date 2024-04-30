@@ -1,0 +1,36 @@
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: black;
+    border: 1px 2px solid; */
+    
+}
+.menu__list__item .menu__list__item__contato {
+    color: aliceblue;
+}
+.menu__list__item{
+    font-weight:bold;
+}
+.menu__list :hover{
+    color: blueviolet;
+}
+.menu__list__item__contato{
+    display: none;
+}
+@media (max-width: 780px){
+    .menu__list__item{
+        color: aliceblue;
+    }
+    .menu__list__item__contato{
+        display: none;
+        font-weight:bold; 
+    }
+}
+@media (max-width: 480px){
+    .menu__list__item__contato{
+    font-weight: 500;
+    font-size: 8rem;
+    }
+}

@@ -1,0 +1,18 @@
+.formcontato{
+    background-color: rgb(235, 139, 139);
+    padding: 4rem 20rem;
+    margin-top: 100px;
+}
+.formcontato__contacto{
+    display: flex;
+    gap: 25px; 
+    padding-top: 2rem;
+}
+@media (max-width: 780px){
+    .formcontato{
+        padding: 2rem;
+    }
+    .formcontato__contacto{
+        padding-top: 0;
+}
+}
